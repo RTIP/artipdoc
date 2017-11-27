@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+Automated Radio Telescope Image Processing Pipeline (ARTIP) is an end to end pipeline automating the entire process of flagging, calibration and imaging.
 
-You can use the [editor on GitHub](https://github.com/TWARTIP/artipdoc/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+ARTIP starts with raw data i.e. Measurement Set and goes through multiple stages like Flux Calibration, Bandpass Calibration, Phase Calibration and Imaging to generate continuum and spectral line images. Each stage can also be run independently. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+It is written using standard python libraries and the CASA package and tested against datasets (~ 6 to 30GB) produced by Giant Metrewave Radio Telescope, Pune (GMRT) , Very Large Array, NM (VLA) , Westerbork Synthesis Radio Telescope Netherlands (WSRT). Its currently being tested for the data from MeerKAT Absorption Line Survey (MALS)
 
-### Markdown
+Pipeline also provides ability to generate reports of processed data in graphical format.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Obtaining ARTIP
+https://github.com/TWARTIP/artip/releases
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TWARTIP/artipdoc/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Documentation
+https://github.com/TWARTIP/artipdoc/blob/master/artip_documentation.pdf
